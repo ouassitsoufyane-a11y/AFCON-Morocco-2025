@@ -1,0 +1,259 @@
+/* Body */
+body {
+    margin: 0;
+    background-image: 
+        url("background.png");
+    background-size: 100%;    
+    background-repeat: no-repeat;
+    background-color: #800000;
+    background-position: center top;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    margin: -51px 38px 0px 30px;
+}
+
+/* Logo */
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    gap: 17px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+/* Menu Button */
+.button-menu {
+    background-color: #3bab5a;
+    color: white;
+    width: 123px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 36px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+.button-menu:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+    color: #2f8f4b;
+}
+
+.description-fes {
+    background-color: #fff4f4;
+    height: 650px;
+    margin-top: 641px;
+    padding: 52px 60px;
+}
+
+h2 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.the-match {
+    height: 950px;
+    
+}
+.Match-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #800000;
+    
+}
+
+.match {
+    width: 580px;
+    height: 345px;
+    background-color: #800000;
+    background-image: url(background-match.png);
+    background-repeat: no-repeat;
+    background-position: -18px 4px;
+    background-size: 604px;
+    margin-top: 24px;
+    margin-bottom: 35px;
+    border-radius: 64px ;
+    box-shadow: 2px 4px 55px;
+}
+
+.match:hover { 
+    transform: scale(1.05);
+}
+
+.match {
+    position: relative;
+    overflow: hidden;
+}
+
+/* المحتوى العادي */
+.match-content {
+    transition: opacity 0.4s ease;
+}
+
+/* طبقة hover */
+.match-hover {
+    position: absolute;
+    inset: 0;
+    background: rgba(128, 0, 0, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    
+    
+}
+
+/* عند المرور بالماوس */
+.match:hover .match-content {
+    opacity: 0;
+    
+}
+
+.match:hover .match-hover {
+    opacity: 1;
+    pointer-events: auto;
+    
+}
+
+/* النتيجة */
+.match-hover h3 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 122px;
+    
+}
+
+/* زر الملخص */
+.summary-btn {
+    background-color: #3bab5a;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+  bottom: 61px;
+}
+
+.summary-btn:hover {
+    background-color: white;
+    color: #3bab5a;
+}
+
+.stade {
+    background-color: #800000;
+    background-image: url(background-match.png);
+    background-size: 1370px;
+    background-position: -71px -232px;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 468px;
+    border-radius: 100px 0%;
+    box-shadow: 3px 5px 21px black;
+    margin-top: 96px;
+    margin-left: 116px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+
+.stade:hover {
+    transform: scale(1.05);
+}
+
+.h2-agadir {
+    margin: 145px 0px 0px 52px;
+
+    color: white;
+    font-size: 40px;
+    text-shadow: 4px 3px 8px black;
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.button-stade {
+    background-color: #bc4538;
+    color: white;
+    width: 229px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    position: relative;
+    top: 215px;
+    left: -248px;
+
+    box-shadow: 2px 2px 12px black;
+}
+
+.button-stade:hover {
+    background-color: #ffffff;
+    color: #bc4538;
+    transform: scale(1.05);
+
+}
+
+
+
+
+footer {
+    background-color: #000000;
+    height: 410px;
+}

@@ -1,0 +1,139 @@
+/* Body */
+body {
+    margin: 0;
+    background-image: 
+        url("BACKGROUND-FES.png");
+    background-size: 100%;    
+    background-repeat: no-repeat;
+    background-color: #800000;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    margin: -34px 65px 0px 87px;
+}
+
+/* Logo */
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    gap: 17px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+/* Menu Button */
+.button-menu {
+    background-color: #3bab5a;
+    color: white;
+    width: 123px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 36px;
+    text-decoration: none;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+    transition: background-color 0.3s ease;
+}
+
+.button-menu:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+    color: #2f8f4b;
+}
+
+.description-FES {
+    background-color: #fff4f4;
+    height: 650px;
+    margin-top: 641px;
+    padding: 52px 153px 0px 153px;
+}
+
+h2 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.stade {
+    background-color: #2f8f4b;
+    background-image: url(pattern-04.png);
+    background-size: 700px;
+    background-position: 763px 47px;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 468px;
+    border-radius: 100px 0%;
+    box-shadow: 3px 5px 21px black;
+    margin-top: 96px;
+    margin-left: 116px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.stade:hover {
+    transform: scale(1.05);
+}
+
+.h2-FES {
+    margin: 72px 0px 0px 52px;
+
+    color: white;
+    font-size: 40px;
+    text-shadow: 4px 3px 8px black;
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.button-stade {
+    background-color: #bc4538;
+    color: white;
+    width: 229px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    position: relative;
+    top: 286px;
+    left: -352px;
+
+    box-shadow: 2px 2px 12px black;
+}
+
+footer {
+    background-color: #000000;
+    height: 410px;
+}

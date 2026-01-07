@@ -1,0 +1,269 @@
+/* Body */
+body {
+    margin: 0;
+    background-image: 
+        url("groub.png");
+    background-size: 100%;    
+    background-repeat: no-repeat;
+    background-color: #800000;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    margin: -51px 38px 0px 30px;
+}
+
+/* Logo */
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    gap: 17px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+/* Menu Button */
+.button-menu {
+    background-color: #3bab5a;
+    color: white;
+    width: 123px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 36px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+    transition: background-color 0.3s ease;
+}
+
+.button-menu:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+    color: #2f8f4b;
+}
+
+/* --- box stadiums ---*/
+main {
+    margin-top: 650px;
+}
+
+.h1-Stadiums{
+    color: white;
+    margin-left: 80px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.stadiums {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -40px;
+    margin-left: 204px;
+    margin-right: 151px;
+}
+
+.stade {
+    background-color: #2f8f4b;
+    background-image: url(Stadiums/pattern-03.png);
+    background-size: 208px;
+    background-position: 4px 21px;
+    
+
+    width: 370px;
+    height: 307px;
+    border-radius: 64px 7%;
+
+    box-shadow: 3px 5px 21px black;
+
+    margin-top: 32px;
+    margin-left: -57px;
+}
+
+.stade:hover {
+    transform: scale(1.05);
+}
+
+
+.stade.s2,
+.stade.s4,
+.stade.s6,
+.stade.s8 {
+    background-color: #bc4538;
+    background-image: url(Stadiums/pattern-04.png);
+    background-size: 208px;
+    background-position: 231px 137px;
+    background-repeat: no-repeat;
+}
+
+
+
+h2 {
+    margin: 14px 0px 0px 21px;
+    color: white;
+    font-size: 14px;
+    text-shadow: 4px 3px 8px black;
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button-stade {
+    background-color: #3bab5a;
+    color: white;
+    width: 62px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 36px;
+    text-decoration: none;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+
+
+    position: relative;
+    top: -14px;
+    left: 313px;
+
+    box-shadow: 2px 2px 12px black;
+}
+.button-stade:hover {
+    background-color: #ffffff;
+    color: #2f8f4b;
+}
+
+.button-stade.b1, 
+.button-stade.b2,
+.button-stade.b3,
+.button-stade.b4,
+.button-stade.b5 {
+          background-color: #bc4538;  
+}
+
+.button-stade.b1:hover, 
+.button-stade.b2:hover,
+.button-stade.b3:hover,
+.button-stade.b4:hover,
+.button-stade.b5:hover {
+          background-color: #ffffff;
+          color: #800000;  
+}
+
+
+/* --- Host Cities --- */
+
+.Host_Cities {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -40px;
+    margin-left: 195px;
+    margin-right: 119px;
+    
+}
+
+.host {
+    background-color: #2f8f4b;
+    background-image: url(Stadiums/pattern-03.png);
+    background-size: 208px;
+    background-position: 4px 21px;
+
+    width: 370px;
+    height: 307px;
+    border-radius: 64px 7%;
+    margin-top: 32px;
+    margin-left: -57px;
+
+    box-shadow: 3px 5px 21px black;
+}
+
+.host:hover {
+    transform: scale(1.05);
+}
+
+.h1-host {
+    margin-top: 17px;
+    
+}
+
+.host.s2,
+.host.s4,
+.host.s6,
+.host.s8 {
+    background-color: #bc4538;
+    background-image: url(Stadiums/pattern-04.png);
+    background-size: 208px;
+    background-position: 231px 137px;
+    background-repeat: no-repeat;
+}
+
+.button-host {
+    background-color: #3bab5a;
+    color: white;
+    width: 62px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 36px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+    position: relative;
+    top: -19px;
+    left: 239px;
+
+    box-shadow: 2px 2px 12px black;
+}
+.button-host:hover {
+    background-color: #ffffff;
+    color: #2f8f4b;
+}
+
+.button-host.b1, 
+.button-host.b2,
+.button-host.b3,
+.button-host.b4,
+.button-host.b5 {
+          background-color: #bc4538;  
+}
+
+.button-host.b1:hover, 
+.button-host.b2:hover,
+.button-host.b3:hover,
+.button-host.b4:hover,
+.button-host.b5:hover {
+          background-color: #ffffff;
+          color: #800000;  
+}
