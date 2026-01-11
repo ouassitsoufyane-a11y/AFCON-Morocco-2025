@@ -128,12 +128,12 @@ p {
     overflow: hidden;
 }
 
-/* المحتوى العادي */
+
 .match-content {
     transition: opacity 0.4s ease;
 }
 
-/* طبقة hover */
+
 .match-hover {
     position: absolute;
     inset: 0;
@@ -149,7 +149,7 @@ p {
     
 }
 
-/* عند المرور بالماوس */
+
 .match:hover .match-content {
     opacity: 0;
     
@@ -161,7 +161,7 @@ p {
     
 }
 
-/* النتيجة */
+
 .match-hover h3 {
     color: white;
     font-size: 28px;
@@ -171,7 +171,7 @@ p {
     
 }
 
-/* زر الملخص */
+
 .summary-btn {
     background-color: #3bab5a;
     color: white;
@@ -253,7 +253,59 @@ p {
 
 
 
-footer {
-    background-color: #000000;
-    height: 410px;
+/* Footer Style */
+.footer {
+  background: #5e0a0a;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.footer-section {
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  margin-top: 20px;
+  font-size: 14px;
 }
