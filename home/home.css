@@ -97,6 +97,7 @@ main {
 
     margin-top: 32px;
     margin-left: -57px;
+    transition: transform 0.3s ease;
 }
 
 .stade:hover {
@@ -200,6 +201,8 @@ h2 {
     margin-left: -57px;
 
     box-shadow: 3px 5px 21px black;
+
+    transition: transform 0.3s ease;
 }
 
 .host:hover {
