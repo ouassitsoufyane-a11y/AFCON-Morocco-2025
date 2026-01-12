@@ -74,17 +74,19 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 1;
+    height: 881px;
 }
 
 .group {
-    width: 405px;
-    height: 300px;
+    width: 472px;
+    height: 276px;
     background-color: rgb(110, 110, 110);
     border-radius: 15px;
-    margin-top: 60px; 
+    
 
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
@@ -95,3 +97,133 @@ h1 {
     font-size: 18px;
 
 }
+
+.group-1 {
+    background-image: url(/groube/groub/5.png);
+    background-size: 105%;
+    background-position: 5px -5px;
+}
+.group-2 {
+    background-image: url(/groube/groub/6.png);
+    background-size: 105%;
+    background-position: 5px -5px;
+}
+.group-3 {
+    background-image: url(/groube/groub/7.png);
+    background-size: 105%;
+    background-position: 5px -5px;
+}
+.group-4 {
+    background-image: url(/groube/groub/8.png);
+    background-size: 105%;
+    background-position: 5px -5px;
+}
+.group-5 {
+    background-image: url(/groube/groub/9.png);
+    background-size: 105%;
+    background-position: 5px -5px;
+}
+.group-6 {
+    background-image: url(/groube/groub/10.png);
+    background-size: 105%;
+    background-position: 5px -5px;
+}
+
+
+
+.box-konkaf{
+    width: auto;
+    height: 870px;
+    background-image: url(groub\(15\).png);
+    background-position: 3px 3px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box-of-16,.box-of-16-2 {
+    width: 250px;
+    height: 850px;
+    
+    
+    
+}
+
+.box-of-8,.box-of-8-2 {
+    width: 150px;
+    height: 850px;
+    
+     
+}
+
+.box-of-semi,.box-of-semi-2 {
+    width: 210px;
+    height: 850px;
+    
+     
+}
+.box-of-final {
+    width: 280px;
+    height: 850px;
+    
+     
+}
+
+/* Footer Style */
+.footer {
+  background: #5e0a0a;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.footer-section {
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
