@@ -30,6 +30,14 @@ body {
     margin-bottom: 35px;
     margin-right: 20px;
 }
+.btn-menu{
+    display: none;
+    color: #ccc;
+    font-size: 34px;
+    background: none;
+    border: none;
+    margin-top: 20px;
+}
 
 /* Menu Button */
 .button-menu {
@@ -182,10 +190,8 @@ h2 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: -40px;
-    margin-left: 195px;
-    margin-right: 119px;
-    height: 745px;
+    margin: -15px 110px 119px 208px;
+    height: auto;
 }
 
 .host {
@@ -326,4 +332,88 @@ h2 {
   padding-top: 15px;
   margin-top: 20px;
   font-size: 14px;
+}
+
+
+
+@media screen and (max-width : 590px){
+    .logo img {
+    width: 70px;
+    margin-top: 40px;
+    margin-left: -24px;
+    }
+    .menu {
+    display: none;
+    }
+    main {
+    margin-top: 93px;
+    }
+    .btn-menu{
+    font-size: 24px;
+    }
+    .stade{
+        margin-right: 800px;
+    }
+    .h1-Stadiums{
+    margin-left: 10px;
+    font-size: 20px;
+    }
+    .stadiums {
+        margin: 0px;
+        margin-left: 70px;
+    }
+    .stade {
+    width: 490px;
+    height: 280px;
+    padding-right: 16px;
+    }
+    h2 {
+    margin: 0px 0px 0px 21px;
+    font-size: 11px;
+    }
+    .button-stade {
+    top: -29px;
+    left: 260px;
+    }
+    img {
+        width: 290px;
+    }
+
+    .stade{
+        margin-right: 800px;
+    }
+    .h1-host{
+    margin-left: 10px;
+    font-size: 14px;
+    
+    }
+    .Host_Cities {
+         margin: -40px 195px 20px 0px;
+        margin-left: 70px;
+        height: auto;
+    }
+    .host {
+    width: 310px;
+    height: 280px;
+    padding-right: 16px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width :980px) {
+    .menu {
+    display: none;
+    }
+
+    .logo img {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: -24px;
+    }
+    .btn-menu{
+    display: block;
+    }
+    
 }
