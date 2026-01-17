@@ -78,7 +78,7 @@ main {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 5vw;
 }
 
 .stadiums {
@@ -356,7 +356,7 @@ h2 {
     }
     .h1-Stadiums{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 5vw;
     }
     .stadiums {
         margin: 0px;

@@ -1,24 +1,20 @@
 /* Body */
 body {
     margin: 0;
+    background-color: #800000;
+    
+
+}
+.headd{
     background-image: 
         url("background.png");
     background-size: 100%;    
     background-repeat: no-repeat;
-    background-color: #800000;
+    
     background-position: center top;
-
+    height: 821px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
 
 
 /* Header */
