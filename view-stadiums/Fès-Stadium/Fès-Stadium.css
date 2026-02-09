@@ -124,12 +124,12 @@ p {
     overflow: hidden;
 }
 
-/* المحتوى العادي */
+
 .match-content {
     transition: opacity 0.4s ease;
 }
 
-/* طبقة hover */
+
 .match-hover {
     position: absolute;
     inset: 0;
@@ -145,7 +145,7 @@ p {
     
 }
 
-/* عند المرور بالماوس */
+
 .match:hover .match-content {
     opacity: 0;
     
@@ -157,7 +157,7 @@ p {
     
 }
 
-/* النتيجة */
+
 .match-hover h3 {
     color: white;
     font-size: 28px;
@@ -167,7 +167,7 @@ p {
     
 }
 
-/* زر الملخص */
+
 .summary-btn {
     background-color: #3bab5a;
     color: white;

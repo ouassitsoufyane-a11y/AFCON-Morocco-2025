@@ -85,6 +85,7 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 42px;
     margin-top: -40px;
     margin-left: 204px;
     margin-right: 151px;
@@ -106,6 +107,8 @@ main {
     margin-top: 32px;
     margin-left: -57px;
     transition: transform 0.3s ease;
+
+    position: relative;
 }
 
 .stade:hover {
@@ -155,7 +158,7 @@ h2 {
 
 
 
-    position: relative;
+    position: absolute;
     top: -14px;
     left: 313px;
 
@@ -209,6 +212,8 @@ h2 {
     box-shadow: 3px 5px 21px black;
 
     transition: transform 0.3s ease;
+
+    position: relative;
 }
 
 .host:hover {
@@ -249,9 +254,9 @@ h2 {
     font-style: normal;
     font-size: 14px;
 
-    position: relative;
-    top: -19px;
-    left: 239px;
+    position: absolute;
+    top: 248px;
+    left: 256px;
 
     box-shadow: 2px 2px 12px black;
 }
