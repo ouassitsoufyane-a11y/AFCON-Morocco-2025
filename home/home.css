@@ -6,7 +6,7 @@ body {
     background-size: 100%;    
     background-repeat: no-repeat;
     background-color: #800000;
-}
+}       
 
 /* Header */
 .header {
@@ -15,6 +15,8 @@ body {
     justify-content: space-between;
     gap: 200px;
     margin: -51px 38px 0px 30px;
+
+    height: 800px;
 }
 
 /* Logo */
