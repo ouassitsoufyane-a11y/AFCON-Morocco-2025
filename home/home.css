@@ -1,37 +1,48 @@
 /* Body */
 body {
-    margin: 0;
-    background-image: 
-        url("groub.png");
-    background-size: 100%;    
-    background-repeat: no-repeat;
     background-color: #800000;
-}       
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}     
 
 /* Header */
 .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 200px;
-    margin: -51px 38px 0px 30px;
+    align-items: self-start;
+    margin-left: 45px;
+    margin-right: 39px;
+    margin-top: -30px;
+    height: 764px;
 
-    height: 800px;
+    background-image: url(groub.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-/* Logo */
+
 .logo img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
-/* Menu */
+
 .menu {
     display: flex;
     gap: 17px;
-    margin-bottom: 35px;
-    margin-right: 20px;
+    margin-top: 60px;
 }
+
 .btn-menu{
     display: none;
     color: #ccc;
@@ -41,7 +52,7 @@ body {
     margin-top: 20px;
 }
 
-/* Menu Button */
+
 .button-menu {
     background-color: #3bab5a;
     color: white;
@@ -59,8 +70,6 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
-
-    transition: background-color 0.3s ease;
 }
 
 .button-menu:hover {
@@ -70,9 +79,7 @@ body {
 }
 
 /* --- box stadiums ---*/
-main {
-    margin-top: 650px;
-}
+
 
 .h1-Stadiums{
     color: white;
@@ -342,85 +349,70 @@ h2 {
 }
 
 
-
-@media screen and (max-width : 590px){
-    .logo img {
-    width: 70px;
-    margin-top: 40px;
-    margin-left: -24px;
+@media screen and (max-width:960px){
+    .header{
+        margin-top: 0px;
+         height: 300px;
     }
     .menu {
-    display: none;
-    }
-    main {
-    margin-top: 93px;
-    }
-    .btn-menu{
-    font-size: 24px;
-    }
-    .stade{
-        margin-right: 800px;
-    }
-    .h1-Stadiums{
-    margin-left: 10px;
-    font-size: 5vw;
-    }
-    .stadiums {
-        margin: 0px;
-        margin-left: 70px;
-    }
-    .stade {
-    width: 490px;
-    height: 280px;
-    padding-right: 16px;
-    }
-    h2 {
-    margin: 0px 0px 0px 21px;
-    font-size: 11px;
-    }
-    .button-stade {
-    top: -29px;
-    left: 260px;
-    }
-    img {
-        width: 290px;
-    }
-
-    .stade{
-        margin-right: 800px;
-    }
-    .h1-host{
-    margin-left: 10px;
-    font-size: 14px;
+    display: none; 
+}
+    .logo img {
+    max-width: 80px;
     
-    }
-    .Host_Cities {
-         margin: -40px 195px 20px 0px;
-        margin-left: 70px;
-        height: auto;
-    }
-    .host {
-    width: 310px;
-    height: 280px;
-    padding-right: 16px;
+}
+    
+}
+@media screen and (max-width:1220px){
+    .header{
+       height: 595px;
     }
     
-    
+}
+@media screen and (max-width:600px){
+    .header{
+       height: 245px;
+       background-size: 622px;
+       background-position: -92px;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
     
 }
 
-@media screen and (max-width :980px) {
-    .menu {
-    display: none;
+@media screen and (max-width:760px){
+    .header{
+       height: 345px;
     }
 
-    .logo img {
-    width: 100px;
-    margin-top: 40px;
-    margin-left: -24px;
+    .stadiums {
+        margin-top: 0px;
+        justify-content: center;
     }
+    .stade.s9{
+        margin-bottom: 40px;
+    }
+
+    .Host_Cities {
+    justify-content: center;
+    height: auto;
+}
+    .host {
+    margin-top: 32px;
+    margin-left: -90px;
+}
+
     .btn-menu{
     display: block;
-    }
-    
+    color: #2f8f4b;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-right: 20px;
 }
+}
+
+ 
+
+
+
+
