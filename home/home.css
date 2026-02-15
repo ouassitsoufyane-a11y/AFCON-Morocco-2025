@@ -78,6 +78,58 @@ html, body {
     color: #2f8f4b;
 }
 
+
+
+
+.slide-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 35s linear infinite;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.team img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.team:hover {
+    color: rgb(17, 207, 71);
+    transform: scale(1.1);
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .team {
+        font-size: 14px;
+        margin: 0 20px;
+    }
+
+    .team img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+
 /* --- box stadiums ---*/
 
 
@@ -85,9 +137,12 @@ html, body {
     color: white;
     margin-left: 80px;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     font-size: 5vw;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 50px;
 }
 
 .stadiums {
